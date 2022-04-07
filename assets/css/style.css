@@ -68,3 +68,7 @@ body {
       font-size: xx-large;
       text-align-last: center;
   }
+.options {
+    width: 200px;
+    height: 150px;
+}
