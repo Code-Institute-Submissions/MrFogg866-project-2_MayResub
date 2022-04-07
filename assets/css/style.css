@@ -17,7 +17,7 @@ body {
     max-width: 800px;
     padding:40px 0;
     margin: 0 auto;
-    background-color: grey;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -39,6 +39,32 @@ body {
     border-style: solid;
     border-color: aqua;
 }
+
+/* positioning of VS needs to fixed */
 .separator {
     font-size: 5em;
 }
+
+/* positioning of the display moves */
+
+#p-move {
+    position: absolute;
+    left: 170px;
+    width: 300px;
+    height: 250px;
+    
+  }
+  
+  #c-move{
+    position: absolute;
+    right: 170px;
+    width: 300px;
+    height: 250px;
+    
+  }
+  
+  /* positioning of the score needs to be fixed */
+  .score {
+      font-size: xx-large;
+      text-align-last: center;
+  }
