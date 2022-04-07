@@ -10,6 +10,9 @@ body {
     width: 80vw;
     color: white
 }
+
+/* styling for the action buttons */
+
 .action {
     max-width: 800px;
     padding:40px 0;
@@ -20,4 +23,13 @@ body {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
-}act
+}
+
+/* styling for the result images */
+.display-moves { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
