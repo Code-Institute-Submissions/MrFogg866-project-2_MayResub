@@ -59,6 +59,10 @@ Validator Testing:
 2. CSS
 - No errors were found when passing through the official (Jigsaw) validator
 
+3. Javascript
+- No warnings from !wwww.jshint.com
+![jshint screenshot] (assets/images/jshint.png)
+
 
 
 

@@ -85,9 +85,7 @@ function updateTally() {
   function checkWinner() {
     if (pTally === 3 || cTally === 3) {
       const winner =
-        pTally === 3
-          ? "You win the game! Congratulations!"
-          : "Computer wins the game! Try again next time!";
+        pTally === 3 ? "You win the game! Congratulations!" : "Computer wins the game! Try again next time!";
       alert(winner);
       return true;
     }
