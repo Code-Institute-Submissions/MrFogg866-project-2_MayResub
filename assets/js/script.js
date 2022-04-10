@@ -23,8 +23,8 @@ options.forEach((option) => {
 
 
 function updateMoves(pInput, cInput){
-    document.getElementById("p-move").src = `./assets/${pInput}.svg`;
-    document.getElementById("c-move").src = `./assets/${cInput}.svg`;
+    document.getElementById("p-move").src = `./assets/${pInput}.PNG`;
+    document.getElementById("c-move").src = `./assets/${cInput}.PNG`;
   }
 
 
@@ -77,9 +77,9 @@ function updateScore() {
   }
 
   function checkWinner() {
-    if (pScore === 5 || cScore === 5) {
+    if (pScore === 3 || cScore === 3) {
       const winner =
-        pScore === 5
+        pScore === 3
           ? "You win the game! Congratulations!"
           : "Computer wins the game! Try again next time!";
       alert(winner);
