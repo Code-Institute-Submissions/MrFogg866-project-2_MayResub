@@ -56,14 +56,6 @@ I have tested my site on multiple devices. These include:
 
 the aim is to allow the website to resize itself and fit to any device as small as a iphone se (375 x 667) upto a nest hub max (1280 x 800) to allow for a great user experience.
 
-## Mock-ups:
-
-- Balsamiq was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. The concept design (wireframes) of webpages (3 pages) prepared is presented below.
-
-![balsamic home](assets/image/balsamic-home.png)
-![balsamic castle](assets/image/balsamic-castle.png)
-![balsamic castle 2](assets/image/balsamic-castle2.png)
-![balsamic sign-up](assets/image/balsamic-sign-up.png)
 
 
 
@@ -72,13 +64,9 @@ Validator Testing:
 1. HTML
 - No errors were returned when passing through the official W3C validator
 
-![w3c success home](assets/image/html-check-home.png)
-![w3c success castle](assets/image/html-check-castle.png)
-![w3c success sign-up](assets/image/html-check-sign-up.png)
 2. CSS
 - No errors were found when passing through the official (Jigsaw) validator
 
-![jigsaw success css](assets/image/jigsaw-css.png)
 
 
 
@@ -91,8 +79,6 @@ Validator Testing:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
 
 - [CSS3](https://en.wikipedia.org/wiki/CSS) (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
-
-- [Balsamic](https://balsamiq.com/) was used to create wireframes of the website (desktop and mobile version).
 
 - [Google Fonts](https://fonts.google.com/) was used to import font-family "Lato" and "Oswald" into style,css file and which was used throughout the pages of the website.
 

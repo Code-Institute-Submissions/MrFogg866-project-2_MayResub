@@ -38,9 +38,11 @@ h2 {
 
 /* styling for the result images */
 .display-moves { 
+    max-width: 800px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    border-radius: 20px;
+    padding:40px 0;
+    margin: 0 auto;
     justify-content: space-evenly;
 
 }
@@ -99,10 +101,72 @@ h2 {
   .score-board {
       font-size: xx-large;
       text-align-last: center;
-      padding-top: 300px;
+      margin-top: auto;
       position: relative;
   }
 .options {
     width: 200px;
     height: 150px;
 }
+
+/* media quiries */
+
+/* for larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px){
+    .Seperator {
+        margin-top: auto;
+    position:relative;
+    bottom: auto;
+    }
+    
+    .score-board {
+    margin-top: -77px;
+    margin-left: 400px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+        
+    }
+    
+    #display-message {
+    position: relative;
+    
+    text-align: center;
+    }
+    
+
+  
+
+
+
+  
+    /* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+    .Seperator {
+    margin-top: auto;
+    position:relative;
+    bottom: auto;
+    }
+    
+    .score-board {
+    margin-top: -77px;
+    margin-left: 400px;
+    
+    bottom: 0;
+    text-align: center;
+        
+    }
+    
+    #display-message {
+    
+    margin-right: auto;
+    text-align: center;
+    }
+    
+    .display-moves {
+    max-width: fit-content;
+    }
+
+    
+  
