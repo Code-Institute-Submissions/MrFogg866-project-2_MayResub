@@ -20,3 +20,17 @@ options.forEach((option) => {
         }
     });
 });
+
+
+
+
+ //Check for Map
+ else if (pInput === "Map") {
+    if (cInput === "Cannonbal") {
+      alert(`${currentMatch} = You Win`);
+      pScore++;
+    } else {
+      alert(`${currentMatch} = Computer Wins`);
+      cScore++;
+    }
+  }
