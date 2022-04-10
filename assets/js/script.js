@@ -1,8 +1,8 @@
 
 
 const options = document.querySelectorAll(".options");
-let pScore = 0;
-let cScore = 0;
+let pTally = 0;
+let cTally = 0;
 
 options.forEach((option) => {
     option.addEventListener("click", function () {
@@ -13,10 +13,10 @@ options.forEach((option) => {
 
         updateMoves(pInput, cInput);
         compareInputs(pInput, cInput);
-        updateScore();
+        updateTally();
         if(checkWinner()){
-            pScore = cScore= 0;
-            updateScore();
+            pTally = cTally= 0;
+            updateTally();
         }
     });
 });
@@ -40,10 +40,10 @@ function updateMoves(pInput, cInput){
 if (pInput === "Cannonball") {
     if (cInput === "Swords") {
       alert(`${currentMatch} = You Win`);
-      pScore++;
+      pTally++;
     } else {
       alert(`${currentMatch} = Computer Wins`);
-      cScore++;
+      cTally++;
     }
   }
 
@@ -52,10 +52,10 @@ if (pInput === "Cannonball") {
  else if (pInput === "Map") {
     if (cInput === "Cannonball") {
       alert(`${currentMatch} = You Win`);
-      pScore++;
+      pTally++;
     } else {
       alert(`${currentMatch} = Computer Wins`);
-      cScore++;
+      cTally++;
     }
   }
 
@@ -63,23 +63,23 @@ if (pInput === "Cannonball") {
   else {
     if (cInput === "Map") {
       alert(`${currentMatch} = You Win`);
-      pScore++;
+      pTally++;
     } else {
       alert(`${currentMatch} = Computer Wins`);
-      cScore++;
+      cTally++;
     }
   }
 }
 
-function updateScore() {
-    document.getElementById("p-score").textContent = pScore;
-    document.getElementById("c-score").textContent = cScore;
+function updateTally() {
+    document.getElementById("p-tally").textContent = pTally;
+    document.getElementById("c-tally").textContent = cTally;
   }
 //winner score and alert function
   function checkWinner() {
-    if (pScore === 3 || cScore === 3) {
+    if (pTally === 3 || cTally === 3) {
       const winner =
-        pScore === 3
+        pTally === 3
           ? "You win the game! Congratulations!"
           : "Computer wins the game! Try again next time!";
       alert(winner);
