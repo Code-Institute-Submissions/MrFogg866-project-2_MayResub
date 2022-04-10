@@ -22,6 +22,16 @@ options.forEach((option) => {
 });
 
 
+//Check for Cannonball
+if (pInput === "Cannonball") {
+    if (cInput === "Swords") {
+      alert(`${currentMatch} = You Win`);
+      pScore++;
+    } else {
+      alert(`${currentMatch} = Computer Wins`);
+      cScore++;
+    }
+  }
 
 
  //Check for Map
@@ -35,8 +45,8 @@ options.forEach((option) => {
     }
   }
 
-  //Check for Scissors
-  else {
+  //Check for Swords
+  else if (pinput === "Swords") {
     if (cInput === "Map") {
       alert(`${currentMatch} = You Win`);
       pScore++;
