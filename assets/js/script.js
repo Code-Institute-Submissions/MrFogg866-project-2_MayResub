@@ -75,7 +75,7 @@ function updateScore() {
     document.getElementById("p-score").textContent = pScore;
     document.getElementById("c-score").textContent = cScore;
   }
-
+//winner score and alert function
   function checkWinner() {
     if (pScore === 3 || cScore === 3) {
       const winner =
