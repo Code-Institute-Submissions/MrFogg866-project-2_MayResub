@@ -26,7 +26,7 @@ options.forEach((option) => {
 
  //Check for Map
  else if (pInput === "Map") {
-    if (cInput === "Cannonbal") {
+    if (cInput === "Cannonball") {
       alert(`${currentMatch} = You Win`);
       pScore++;
     } else {
@@ -34,3 +34,15 @@ options.forEach((option) => {
       cScore++;
     }
   }
+
+  //Check for Scissors
+  else {
+    if (cInput === "Map") {
+      alert(`${currentMatch} = You Win`);
+      pScore++;
+    } else {
+      alert(`${currentMatch} = Computer Wins`);
+      cScore++;
+    }
+  }
+}
