@@ -41,8 +41,11 @@ body {
 }
 
 /* positioning of VS needs to fixed */
-.separator {
-    font-size: 5em;
+.Seperator {
+    font-size: 100px;
+    padding-bottom: 200px;
+    position:absolute;
+    bottom: 74px;
 }
 
 /* positioning of the display moves */
