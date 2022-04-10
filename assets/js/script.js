@@ -1,11 +1,11 @@
-console.log("Connected")
+
 
 const options = document.querySelectorAll(".options");
 let pScore = 0;
 let cScore = 0;
 
 options.forEach((option) => {
-    option.addEventListener("click", funtion () {
+    option.addEventListener("click", function () {
         const pInput = this.value;
 
         const cOptions = ["Cannonball", "Map", "Swords"];
