@@ -22,6 +22,20 @@ options.forEach((option) => {
 });
 
 
+function updateMoves(pInput, cInput){
+    document.getElementById("p-move").src = `./assets/${pInput}.svg`;
+    document.getElementById("c-move").src = `./assets/${cInput}.svg`;
+  }
+
+
+  function compareInputs(pInput, cInput) {
+    const currentMatch = `${pInput} vs ${cInput}`;
+    if (pInput === cInput) {
+      alert(`${currentMatch} is a Tie`);
+      return;
+    }
+
+
 //Check for Cannonball
 if (pInput === "Cannonball") {
     if (cInput === "Swords") {
@@ -56,3 +70,20 @@ if (pInput === "Cannonball") {
     }
   }
 }
+
+function updateScore() {
+    document.getElementById("p-score").textContent = pScore;
+    document.getElementById("c-score").textContent = cScore;
+  }
+
+  function checkWinner() {
+    if (pScore === 5 || cScore === 5) {
+      const winner =
+        pScore === 5
+          ? "You win the game! Congratulations!"
+          : "Computer wins the game! Try again next time!";
+      alert(winner);
+      return true;
+    }
+    return false;
+  }
