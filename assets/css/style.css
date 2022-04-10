@@ -67,6 +67,7 @@ body {
   .score-board {
       font-size: xx-large;
       text-align-last: center;
+      padding-top: 500px;
   }
 .options {
     width: 200px;
