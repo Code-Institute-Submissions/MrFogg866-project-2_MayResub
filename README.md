@@ -3,6 +3,8 @@
 # Pirates Edition ~ Rock Paper Scissor 
 ## Cannonball - Map - Swords
 
+![homepage](assets/images/mainpage.png)
+
 Rock Paper Scissors Pirates Edition is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla. This variant was created by myself in 2022
 
 This game is created to have fun playing against the computer. The game is entirely based on chance and the website is easy to navigate in order to easily find the rules.
@@ -10,9 +12,10 @@ This game is created to have fun playing against the computer. The game is entir
 
 ## Features: 
 
-- This Game feature 3 buttons where the user will select one option, and play against the computer.
+- This Game features 3 buttons where the user will select one option, and play against the computer.
 - If the user wins against the computer a popup will show signalling the win.
-- if the user loses against the computer a popup will show signalling the loss.
+- If the user loses against the computer a popup will show signalling the loss.
+- The first player to win 3 round is champion and takes home the treasure.
 
 
 ## User Goals:
@@ -38,20 +41,9 @@ This game is created to have fun playing against the computer. The game is entir
 ## Testing 
 
 - Each pages responsiveness is tested visually and by using chrome development tools & lighthouse the 3 pages results are shown below
-![testing outcome forms](assets/image/nav-test-outcome.png)
-![lighthouse testing results](assets/image/lighthouse-castles.png)
-![testing outcome forms](assets/image/footer-test-outcome.png)
-![lighthouse testing results](assets/image/lighthouse-sign-up.png)
-![testing outcome forms](assets/image/overall-testing-outcomes.png)
 
 I have tested my site on multiple devices. These include:
 
-
-- iPhone SE (375 x 667)
-- iPhone XR plus (414 x 896)
-- ipad mini (768 x 1024)
-- iPad air (820 x 1180)
-- nest hub max (1280 x 800)
 
 
 the aim is to allow the website to resize itself and fit to any device as small as a iphone se (375 x 667) upto a nest hub max (1280 x 800) to allow for a great user experience.
