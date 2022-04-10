@@ -9,7 +9,7 @@ options.forEach((option) => {
         const pInput = this.value;
 
         const cOptions = ["Cannonball", "Map", "Swords"];
-        const cInput = cOptions[Math.floor(Math,random() * 3)];
+        const cInput = cOptions[Math.floor(Math.random() * 3)];
 
         updateMoves(pInput, cInput);
         compareInputs(pInput, cInput);
