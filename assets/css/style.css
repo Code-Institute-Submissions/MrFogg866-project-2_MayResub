@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Comic Neue';
+    font-family: "Quintessential";
 }
 
 /* styling for the result images */
@@ -44,11 +44,21 @@ h2 {
     justify-content: space-evenly;
 
 }
-.move {
+.move  {
     border-radius: 50%;
     border-width: 4px;
     border-style: solid;
     border-color: aqua;
+}
+
+.rules h3 {
+    background-color: black;
+    border-style:double;
+    border-color: white;
+    border-left: 5;
+    border-width: 1px;
+
+
 }
 
 /* positioning of VS needs to fixed */
@@ -56,7 +66,8 @@ h2 {
     font-size: 100px;
     padding-bottom: 200px;
     position:absolute;
-    bottom: 74px;
+    bottom: -100px;
+    font-family: "Quintessential";
 }
 
 /* positioning of the display moves */

@@ -60,7 +60,7 @@ if (pInput === "Cannonball") {
   }
 
   //Check for Swords
-  else if (pinput === "Swords") {
+  else {
     if (cInput === "Map") {
       alert(`${currentMatch} = You Win`);
       pScore++;
