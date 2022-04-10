@@ -3,6 +3,10 @@
 # Pirates Edition ~ Rock Paper Scissor 
 ## Cannonball - Map - Swords
 
+Rock Paper Scissors Pirates Edition is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla. This variant was created by myself in 2022
+
+This game is created to have fun playing against the computer. The game is entirely based on chance and the website is easy to navigate in order to easily find the rules.
+
 
 ## Features: 
 
