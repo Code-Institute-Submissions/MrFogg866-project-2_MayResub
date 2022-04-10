@@ -21,17 +21,23 @@ options.forEach((option) => {
     });
 });
 
+function displayMessage(message) {
+  document.getElementById('display-message').innerHTML = message;
+
+}
+
 
 function updateMoves(pInput, cInput){
-    document.getElementById("p-move").src = `./assets/${pInput}.PNG`;
-    document.getElementById("c-move").src = `./assets/${cInput}.PNG`;
+   
+    document.getElementById("p-move").src = `./assets/images/${pInput.toLowerCase()}.PNG`;
+    document.getElementById("c-move").src = `./assets/images/${cInput.toLowerCase()}.PNG`;
   }
 
 
   function compareInputs(pInput, cInput) {
     const currentMatch = `${pInput} vs ${cInput}`;
     if (pInput === cInput) {
-      alert(`${currentMatch} is a Tie`);
+      displayMessage(`${currentMatch} is a Tie`);
       return;
     }
 

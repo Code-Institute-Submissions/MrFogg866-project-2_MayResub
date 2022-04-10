@@ -53,10 +53,17 @@ h2 {
 
 .rules h3 {
     background-color: black;
+}
+
+.rules {
+    max-width: 350px;
+    padding: 15px;
     border-style:double;
     border-color: white;
     border-left: 5;
     border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
