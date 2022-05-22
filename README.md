@@ -65,6 +65,10 @@ Validator Testing:
 - No warnings from wwww.jshint.com
 ![jshint](assets/images/jshint.png)
 
+4. Javascript Beautifier used here
+![jshint](assets/images/beautifier-js.png)
+
+
 
 
 
