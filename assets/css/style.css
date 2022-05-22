@@ -81,6 +81,10 @@ h2 {
 
 /* positioning of the display moves */
 
+@media screen and (min-width: 950px) 
+ 
+ 
+
 #p-move {
     position: absolute;
     left: 170px;
@@ -96,7 +100,7 @@ h2 {
     height: 250px;
     
   }
-  
+
   /* positioning of the score needs to be fixed */
   .score-board {
       font-size: xx-large;
