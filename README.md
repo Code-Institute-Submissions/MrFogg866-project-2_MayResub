@@ -21,12 +21,6 @@
 
 
 
-## 
-
-
-
-![homepage](assets/images/mainpage.png)
-
 The live link can be found here - https://mrfogg866.github.io/project-2/ 
 
 Rock Paper Scissors Pirates Edition is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla. This variant was created by myself in 2022

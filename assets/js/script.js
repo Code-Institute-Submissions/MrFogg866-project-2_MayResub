@@ -2,7 +2,7 @@ const options = document.querySelectorAll(".options");
 let pTally = 0;
 let cTally = 0;
 
-options.forEach((options) => {
+options.forEach((option) => {
     option.addEventListener("click", function() {
         const pInput = this.value;
 
