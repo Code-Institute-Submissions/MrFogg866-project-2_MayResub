@@ -38,40 +38,60 @@ function compareInputs(pInput, cInput) {
         return;
     }
 
-    //Check for Cannonball
-    if (pInput === "Cannonball") {
-        if (cInput === "Swords") {
-            alert(`${currentMatch} = You Win`);
-            pTally++;
-        } else {
-            alert(`${currentMatch} = Computer Wins`);
-            cTally++;
-        }
+      //Check for Cannonball
+  if (pInput === "Cannonball") {
+    if (cInput === "Swords") {
+      document.getElementById(
+        "modal-result"
+      ).innerHTML = `${currentMatch} = You Win`;
+      pTally++;
+    } else {
+      document.getElementById(
+        "modal-result"
+      ).innerHTML = `${currentMatch} = Computer Wins`;
+      cTally++;
     }
+    document.getElementById("myModal").style.display = "block";
+  }
 
 
-    //Check for Map
-    else if (pInput === "Map") {
-        if (cInput === "Cannonball") {
-            alert(`${currentMatch} = You Win`);
-            pTally++;
-        } else {
-            alert(`${currentMatch} = Computer Wins`);
-            cTally++;
-        }
+
+  //Check for Map
+  else if (pInput === "Map") {
+    if (cInput === "Cannonball") {
+      document.getElementById(
+        "modal-result"
+      ).innerHTML = `${currentMatch} = You Win`;
+      pTally++;
+    } else {
+      document.getElementById(
+        "modal-result"
+      ).innerHTML = `${currentMatch} = Computer Wins`;
+
+      cTally++;
     }
+    document.getElementById("myModal").style.display = "block";
+  }
 
-    //Check for Swords
+
+    /  //Check for Swords
     else {
-        if (cInput === "Map") {
-            alert(`${currentMatch} = You Win`);
-            pTally++;
-        } else {
-            alert(`${currentMatch} = Computer Wins`);
-            cTally++;
-        }
+      if (cInput === "Map") {
+        document.getElementById(
+          "modal-result"
+        ).innerHTML = `${currentMatch} = You Win`;
+        pTally++;
+      } else {
+        document.getElementById(
+          "modal-result"
+        ).innerHTML = `${currentMatch} = Computer Wins`;
+        cTally++;
+      }
+      document.getElementById("myModal").style.display = "block";
     }
-}
+  }
+  
+
 
 // Update player & computer tally
 function updateTally() {
@@ -82,13 +102,25 @@ function updateTally() {
 //winner score and alert function
 function checkWinner() {
     if (pTally === 3 || cTally === 3) {
-        const winner =
-          pTally === 3 
-            ? "You win the game! Congratulations!" 
-            : "Computer wins the game! Try again next time!";
-        alert(winner);
-        return true;
+      const winner =
+        pTally === 3
+          ? ((document.getElementById("modal-result").innerHTML =
+              "Congratulations you win the Treasure"),
+            (document.getElementById("modal-img").src =
+              "assets/images/treasure-chest.JPEG"))
+          : ((document.getElementById("modal-result").innerHTML =
+              "Bad luck the treasure has been stolen"),
+            (document.getElementById("modal-img").src =
+              "assets/images/skull-bones.JPEG"));
+      // alert(winner);
+      document.getElementById("myModal").style.display = "block";
+      return true;
     }
     return false;
-    }
+  }
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  
     
