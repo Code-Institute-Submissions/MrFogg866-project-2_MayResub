@@ -5,6 +5,8 @@
 
 ## Table Of Contents
 
+
+- [Introduction:](#introduction)
 - [Features:](#features)
 - [User-Goals:](#user-goals)
     + [First Time Visitor Goals:](#first-time-visitor-goals)
@@ -20,6 +22,7 @@
 - [Content:](#content)
 
 
+## Introduction: 
 
 The live link can be found here - https://mrfogg866.github.io/project-2/ 
 

@@ -13,16 +13,15 @@ options.forEach((option) => {
         compareInputs(pInput, cInput);
         updateTally();
         if (checkWinner()) {
-            pTally = cTally = 0;
+            pTally = cTally= 0;
             updateTally();
         }
     });
 });
 
-function displayMessage(message) {
-    document.getElementById('display-message').innerHTML = message;
 
-}
+
+
 
 
 function updateMoves(pInput, cInput) {
@@ -38,7 +37,6 @@ function compareInputs(pInput, cInput) {
         displayMessage(`${currentMatch} is a Tie`);
         return;
     }
-
 
     //Check for Cannonball
     if (pInput === "Cannonball") {
@@ -74,16 +72,23 @@ function compareInputs(pInput, cInput) {
         }
     }
 }
+
 // Update player & computer tally
 function updateTally() {
     document.getElementById("p-tally").textContent = pTally;
     document.getElementById("c-tally").textContent = cTally;
 }
+
 //winner score and alert function
 function checkWinner() {
     if (pTally === 3 || cTally === 3) {
         const winner =
-            pTally === 3 ? "You win the game! Congratulations!" : "Computer wins the game! Try again next time!";
+          pTally === 3 
+            ? "You win the game! Congratulations!" 
+            : "Computer wins the game! Try again next time!";
         alert(winner);
         return true;
     }
+    return false;
+    }
+    
