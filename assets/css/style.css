@@ -1,30 +1,8 @@
+/* Element specific styling */
 body {
     background-color: black;
     text-align: center;
 }
-.container {
-    margin: 0 auto;
-    background-color: black;
-    border-radius: 20px;
-    padding: 25px 50px;
-    width: 80vw;
-    color: white;
-}
-
-/* styling for the action buttons */
-
-.action {
-    max-width: 800px;
-    padding:40px 0;
-    margin: 0 auto;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 20px;
-}
-
 
 h1 {
     font-family: 'Quintessential', cursive;
@@ -36,17 +14,39 @@ h2 {
     font-family: "Quintessential";
 }
 
+/* Styling for containered sections */
+.container {
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 20px;
+    width: 80vw;
+    color: white;
+}
+
+/* styling for the action buttons */
+.action {
+    max-width: 800px;
+    padding: 40px 0;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
 /* styling for the result images */
-.display-moves { 
+.display-moves {
     max-width: 800px;
     display: flex;
     border-radius: 20px;
-    padding:40px 0;
+    padding: 40px 0;
     margin: 0 auto;
-    justify-content: space-evenly;
-
+    justify-content: center;
 }
-.move  {
+
+.move {
     border-radius: 50%;
     border-width: 4px;
     border-style: solid;
@@ -60,117 +60,201 @@ h2 {
 .rules {
     max-width: 350px;
     padding: 15px;
-    border-style:double;
+    border-style: double;
     border-color: white;
-    border-left: 5;
+    border: 5px;
     border-width: 1px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
-/* positioning of VS needs to fixed */
+/* Styling for the "VERSUS" separator */
 .Seperator {
     font-size: 100px;
-    padding-bottom: 200px;
-    position:absolute;
-    bottom: -100px;
+    padding-bottom: 100px;
     font-family: "Quintessential";
 }
 
 /* positioning of the display moves */
-
-/* @media screen and (min-width: 950px) */
- 
- 
-
 #p-move {
     position: absolute;
     left: 170px;
     width: 300px;
     height: 250px;
-    
-  }
-  
-  #c-move{
+}
+
+#c-move {
     position: absolute;
     right: 170px;
     width: 300px;
     height: 250px;
-    
-  }
+}
 
-  /* positioning of the score needs to be fixed */
-  .score-board {
-      font-size: xx-large;
-      text-align-last: center;
-      margin-top: auto;
-      position: relative;
-  }
+
+.score-board {
+    font-size: xx-large;
+    text-align-last: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
 .options {
     width: 200px;
     height: 150px;
 }
 
-/* media quiries */
-
+/* media queries */
 /* for larger to medium screens size from 1200px wide and down */
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1220px) {
     .Seperator {
-        margin-top: auto;
-    position:relative;
-    bottom: auto;
+        font-size: 80px;
+        bottom: auto;
     }
-    
+
     .score-board {
-    margin-top: -77px;
-    margin-left: 400px;
-    position: relative;
-    bottom: 0;
-    text-align: center;
-        
+        bottom: 0;
+        text-align: center;
     }
-    
+
     #display-message {
-    position: relative;
-    
-    text-align: center;
+        position: relative;
+        text-align: center;
+    }
+
+    #p-move {
+        position: absolute;
+        left: 170px;
+        width: 200px;
+        height: 150px;
     }
     
+    #c-move {
+        position: absolute;
+        right: 170px;
+        width: 200px;
+        height: 150px;
+    }
+}
 
-  
-
-
-
-  
-    /* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
     .Seperator {
-    margin-top: auto;
-    position:relative;
-    bottom: auto;
+        font-size: 40px;
+        bottom: auto;
     }
-    
+
     .score-board {
-    margin-top: -77px;
-    margin-left: 400px;
-    
-    bottom: 0;
-    text-align: center;
-        
+        bottom: 0;
+        text-align: center;
     }
-    
+
     #display-message {
-    
-    margin-right: auto;
-    text-align: center;
+        position: relative;
+        text-align: center;
+    }
+
+    #p-move {
+        position: absolute;
+        left: 170px;
+        width: 100px;
+        height: 80px;
     }
     
+    #c-move {
+        position: absolute;
+        right: 170px;
+        width: 100px;
+        height: 80px;
+    }
+
+    .options {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+/* for smaller screen sizes from 670px wide and down */
+@media screen and (max-width: 670px) {
+    .Seperator {
+        font-size: 40px;
+        bottom: auto;
+    }
+
+    .score-board {
+        bottom: 0;
+        text-align: center;
+    }
+
+    #display-message {
+        position: relative;
+        text-align: center;
+    }
+
+    #p-move {
+        position: absolute;
+        left: 100px;
+        width: 100px;
+        height: 80px;
+    }
+    
+    #c-move {
+        position: absolute;
+        right: 100px;
+        width: 100px;
+        height: 80px;
+    }
+
+    .options {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+
+/* for smaller screen sizes from 480px wide and down */
+@media screen and (max-width: 480px) {
+    .Seperator {
+        font-size: 40px;
+        bottom: auto;
+    }
+
+    .score-board {
+        bottom: 0;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #display-message {
+        position: relative;
+        text-align: center;
+    }
+
+    #p-move {
+        position: absolute;
+        left: 25px;
+        width: 80px;
+        height: 70px;
+    }
+    
+    #c-move {
+        position: absolute;
+        right: 25px;
+        width: 80px;
+        height: 70px;
+    }
+
+    .options {
+        width: 80px;
+        height: 70px;
+    }
+
     .display-moves {
-    max-width: fit-content;
+        display: flex;
+        padding: 0px;
     }
 
-    
-  
+    .action {
+        padding: 0px 0;
+    }
+}
