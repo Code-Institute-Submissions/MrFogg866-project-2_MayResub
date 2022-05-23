@@ -1,7 +1,11 @@
 # project-2
 
+![homepage](assets/images/ami-pirates.png)
+
 # Pirates Edition ~ Rock Paper Scissor 
 ## Cannonball - Map - Swords
+
+
 
 ![homepage](assets/images/mainpage.png)
 
