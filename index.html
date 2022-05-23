@@ -14,71 +14,74 @@
     <title>Document</title>
   </head>
   <body>
-    
     <section class="container">
-    <!-- rules part 1 section -->
-    <section>
-      <h1>Pirates Edition</h1>
-      <p>Rock Paper Scissors Game</p>
-      <p>First to win 3 games takes home the treasure</p>
-      <p>Click below to select your move:</p>
-    </section>
+      <!-- rules part 1 section -->
+      <section>
+        <h1>Pirates Edition</h1>
+        <p>Rock Paper Scissors Game</p>
+        <p>First to win 3 games takes home the treasure</p>
+        <p>Click below to select your move:</p>
+      </section>
 
       <!-- Here are your option buttons-->
-    <section>
-      <div class="action">
-        <input
-          class="options"
-          type="image"
-          src="./assets/images/cannonball.PNG"
-          value="Cannonball"
-          alt="cannonball"
-        />
-        <input
-          class="options"
-          type="image"
-          src="./assets/images/map.PNG"
-          value="Map"
-          alt="map"
-        />
-        <input
-          class="options"
-          type="image"
-          src="./assets/images/swords.PNG"
-          value="Swords"
-          alt="swords"
-        />
-      </div>
-    </section>
+      <section>
+        <div class="action">
+          <input
+            class="options"
+            type="image"
+            src="./assets/images/cannonball.PNG"
+            value="Cannonball"
+            alt="cannonball"
+          />
+          <input
+            class="options"
+            type="image"
+            src="./assets/images/map.PNG"
+            value="Map"
+            alt="map"
+          />
+          <input
+            class="options"
+            type="image"
+            src="./assets/images/swords.PNG"
+            value="Swords"
+            alt="swords"
+          />
+        </div>
+      </section>
 
       <!-- rules part 2 section  -->
-    <section>
-      <div class="rules">
-        <p>
-          To win you must beat the computer: - 
-          Map beats Cannonball -
-          Cannonball beats Swords -
-          Swords beats Map
-        </p>
-      </div>
-    </section>
+      <section>
+        <div class="rules">
+          <p>
+            To win you must beat the computer: - Map beats Cannonball Cannonball
+            beats Swords Swords beats Map
+          </p>
+        </div>
+      </section>
 
       <!-- This shows the  latest score -->
-    <section>
-      <div>
-        <h2 class="score-board" id="display-message"></h2>
-      </div>
+      <section>
+        <div>
+          <h2 class="score-board" id="display-message"></h2>
+        </div>
 
-      <div>
-        <h2 class="score-board"> Player <span id="p-tally">0</span> - <span id="c-tally">0</span> Computer
-        </h2>
-      </div>
-    </section>
+        <div>
+          <h2 class="score-board">
+            Player <span id="p-tally">0</span> -
+            <span id="c-tally">0</span> Computer
+          </h2>
+        </div>
+      </section>
 
       <!-- This shows the last move played by each user -->
       <section class="display-moves">
         <div>
-          <img id="p-move" src="./assets/images/cannonball.PNG" alt="cannonball"/>
+          <img
+            id="p-move"
+            src="./assets/images/cannonball.PNG"
+            alt="cannonball"
+          />
         </div>
         <div class="Seperator">VS</div>
         <div>
@@ -90,18 +93,17 @@
         </div>
       </section>
     </section>
-    <!-- The Modal Popup Feature-->
+    <!-- The Modal -->
     <div id="myModal" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <img class="modal-img" id="modal-img" src="" />
-    <h3 id="modal-result">Congratulations you win the Treasure</h3>
-    <button class="play-again-btn" onclick="closeModal()">
-      Play Again
-    </button>
-  </div>
-</div>
-
+      <!-- Modal content -->
+      <div class="modal-content">
+        <img class="modal-img" id="modal-img" src="" />
+        <h3 id="modal-result">Congratulations you win the Treasure</h3>
+        <button class="play-again-btn" onclick="closeModal()">
+          Play Again
+        </button>
+      </div>
+    </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
