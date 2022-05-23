@@ -1,11 +1,27 @@
-# project-2 Pirates Edition ~ Rock Paper Scissor
+# Pirates Edition ~ Rock-Paper-Scissor / Cannonball-Map-Swords
 
 ![homepage](assets/images/ami-pirates.png)
 
-# Table of contents
 
-#  
-## Cannonball - Map - Swords
+## Table Of Contents
+
+- [Features:](#features)
+- [User-Goals:](#user-goals)
+    + [First Time Visitor Goals:](#first-time-visitor-goals)
+    + [Returning Visitor Goals:](#returning-visitor-goals)
+    + [User Expectations:](#user-expectations)
+- [Testing:](#testing)
+- [Technologies-Used:](#technologies-used)
+- [Deployment:](#deployment)
+
+- [Credit & Code:](#credit-&-code)
+   + [Code:](#code)
+   + [Credit:](#credit)
+- [Content:](#content)
+
+
+
+## 
 
 
 
@@ -26,7 +42,7 @@ This game is created to have fun playing against the computer. The game is entir
 - The first player to win 3 round is champion and takes home the treasure.
 
 
-## User Goals:
+## User-Goals:
 
 #### First Time Visitor Goals:
 
@@ -82,7 +98,7 @@ Validator Testing:
 
 
 
-## Technologies Used
+## Technologies-Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
 
@@ -118,12 +134,15 @@ The live link can be found here - https://mrfogg866.github.io/project-2/
 
 
 
-## Credit:
+### Code & Credit
 
-### Code
+#### Code
 
 - The code structure was referenced from https://github.com/nsebhastian/rock-paper-scissors-game/blob/master/index.html
 - The  pirate icons used on the head of the  page came from Font Awesome.
+
+#### Credit 
+
 - Thanks to my mentor Marcel Mulders for his constructive feedback.
 
 ### Content
