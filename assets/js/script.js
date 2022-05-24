@@ -48,7 +48,7 @@ function compareInputs(pInput, cInput) {
       ).innerHTML = `${currentMatch} = Computer Wins`;
       cTally++;
     }
-    document.getElementById("modal-img").src = "assets/images/img.JPEG";
+    document.getElementById("modal-img").src = "assets/images/img.jpeg";
 
     document.getElementById("myModal").style.display = "block";
   }
@@ -67,7 +67,7 @@ function compareInputs(pInput, cInput) {
 
       cTally++;
     }
-    document.getElementById("modal-img").src = "assets/images/img.JPEG";
+    document.getElementById("modal-img").src = "assets/images/img.jpeg";
 
     document.getElementById("myModal").style.display = "block";
   }
@@ -85,7 +85,7 @@ function compareInputs(pInput, cInput) {
       ).innerHTML = `${currentMatch} = Computer Wins`;
       cTally++;
     }
-    document.getElementById("modal-img").src = "assets/images/img.JPEG";
+    document.getElementById("modal-img").src = "assets/images/img.jpeg";
 
     document.getElementById("myModal").style.display = "block";
   }
