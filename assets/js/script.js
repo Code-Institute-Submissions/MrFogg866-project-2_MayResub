@@ -109,6 +109,7 @@ function checkWinner() {
 
 function closeModal() {
     document.getElementById("myModal").style.display = "none";
+    document.getElementById("modal-img").src = "";
 }
 
   
