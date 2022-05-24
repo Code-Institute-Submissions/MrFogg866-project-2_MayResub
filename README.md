@@ -75,7 +75,10 @@ the aim is to allow the website to resize itself and fit to any device as small 
 #### Validator Testing:
 
 1. HTML
-- No errors were returned when passing through the official W3C validator
+- Numerous errors were returned when passing through the official W3C validator
+![W3C](assets/images/errors-html.png)
+- I went through one by one to fix these errors and warnings to eventually recieve this message. 
+![W3C](assets/images/html-check.png)
 
 2. CSS
 - No errors were found when passing through the official (Jigsaw) validator
