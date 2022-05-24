@@ -48,6 +48,8 @@ function compareInputs(pInput, cInput) {
       ).innerHTML = `${currentMatch} = Computer Wins`;
       cTally++;
     }
+    document.getElementById("modal-img").src = "assets/images/img.JPEG";
+
     document.getElementById("myModal").style.display = "block";
   }
 
@@ -65,6 +67,8 @@ function compareInputs(pInput, cInput) {
 
       cTally++;
     }
+    document.getElementById("modal-img").src = "assets/images/img.JPEG";
+
     document.getElementById("myModal").style.display = "block";
   }
 
@@ -81,6 +85,8 @@ function compareInputs(pInput, cInput) {
       ).innerHTML = `${currentMatch} = Computer Wins`;
       cTally++;
     }
+    document.getElementById("modal-img").src = "assets/images/img.JPEG";
+
     document.getElementById("myModal").style.display = "block";
   }
 }
@@ -114,6 +120,7 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
   document.getElementById("modal-img").src = "";
 }
+
 
   
     
