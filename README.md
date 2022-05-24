@@ -72,7 +72,7 @@ the aim is to allow the website to resize itself and fit to any device as small 
 
 
 
-Validator Testing:
+#### Validator Testing:
 
 1. HTML
 - No errors were returned when passing through the official W3C validator
@@ -84,7 +84,9 @@ Validator Testing:
 - No warnings from wwww.jshint.com
 ![jshint](assets/images/jshint.png)
 
-4. Javascript Beautifier used here
+#### Code Formatting
+
+4. Javascript Beautifier used here, you can see the amount of lines being used have been reduced.
 ![jshint](assets/images/beautifier-js.png)
 
 
