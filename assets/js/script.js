@@ -30,10 +30,10 @@ function updateMoves(pInput, cInput) {
 
 function compareInputs(pInput, cInput) {
   const currentMatch = `${pInput} vs ${cInput}`;
-  if (pInput === cInput) 
+  if (pInput === cInput) {
     displayMessage(`${currentMatch} is a Tie`);
     return;
-  }
+  }}
 
   //Check for Cannonball
   if (pInput === "Cannonball") {
