@@ -1,5 +1,12 @@
 # Pirates Edition ~ Rock-Paper-Scissor / Cannonball-Map-Swords
 
+The live link can be found here - https://mrfogg866.github.io/project-2/ 
+
+Rock Paper Scissors Pirates Edition is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla. This variant was created by myself in 2022
+
+This game is created to have fun playing against the computer. The game is entirely based on chance and the website is easy to navigate in order to easily find the rules.
+
+
 ![homepage](assets/images/ami-pirates.png)
 
 
@@ -21,14 +28,6 @@
    + [Credit:](#credit)
 - [Content:](#content)
 
-
-## Introduction: 
-
-The live link can be found here - https://mrfogg866.github.io/project-2/ 
-
-Rock Paper Scissors Pirates Edition is an extension of the classic game of chance, Rock Paper Scissors, created by Sam Kass and Karen Bryla. This variant was created by myself in 2022
-
-This game is created to have fun playing against the computer. The game is entirely based on chance and the website is easy to navigate in order to easily find the rules.
 
 
 ## Features: 
@@ -61,14 +60,18 @@ This game is created to have fun playing against the computer. The game is entir
 
 ## Testing 
 
-- Each pages responsiveness is tested visually and by using chrome development tools & lighthouse the 3 pages results are shown below
+- Each pages responsiveness is tested visually and by using chrome development tools & lighthouse the 3 pages results are shown below,
+
 
 I have tested my site on multiple devices. These include:
 
+iPhone SE (375 x 667)
+iPhone XR plus (414 x 896)
+ipad mini (768 x 1024)
+iPad air (820 x 1180)
+nest hub max (1280 x 800)
 
-
-the aim is to allow the website to resize itself and fit to any device as small as a iphone se (375 x 667) upto a nest hub max (1280 x 800) to allow for a great user experience.
-
+the aim is to allow the website to resize itself at various sizes starting at 1200px and moving down to 950px then 670px and then 480px to allow for a great user experience.
 
 
 
@@ -82,7 +85,7 @@ the aim is to allow the website to resize itself and fit to any device as small 
 
 2. CSS
 - No errors were found when passing through the official (Jigsaw) validator
-
+[jigsaw](assets/images/css-w3-jigsaw.png)
 3. Javascript
 - No warnings from wwww.jshint.com
 ![jshint](assets/images/jshint.png)
@@ -92,13 +95,13 @@ the aim is to allow the website to resize itself and fit to any device as small 
 4. Javascript Beautifier used here, you can see the amount of lines being used have been reduced.
 ![jshint](assets/images/beautifier-js.png)
 
+#### Chrome Developer Tools
 
+5. I have used dev tools here to check the media quiries are working correctly and to see any errors, the was a few errors i have show one below regarding the lack of Favicon, to which i added a favicon.
+![favicon](assets/images/favicon-error.png)
 
-
-
-
-
-
+you can see after fixing this that no further errors are shown.
+![dev tools](assets/images/dev-tools.png)
 
 ## Technologies-Used
 
@@ -112,7 +115,7 @@ the aim is to allow the website to resize itself and fit to any device as small 
 
 - [Chrome developer tools](https://www.google.com/intl/en_uk/chrome/) was used to debug and test the source code using HTML5 as well as to test site responsiveness.
 
--  [Github](https://github.com/) was used to create the repository and to store the project's code after pushed from Git.
+- [Github](https://github.com/) was used to create the repository and to store the project's code after pushed from Git.
 
 - [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site.
 
@@ -120,9 +123,11 @@ the aim is to allow the website to resize itself and fit to any device as small 
 
 - [Jigsaw](https://jigsaw.w3.org/) tools were used to validate the CSS  code used to style the proejct.
 
--  [Ami](http://ami.responsivedesign.is/) was used to develop a Mockup screenshot generator.
+- [Ami](http://ami.responsivedesign.is/) was used to develop a Mockup screenshot generator.
 
-- [Picsart](https://picsart.com/) was used to edit the games images 
+- [Picsart](https://picsart.com/) was used to edit the games images.
+
+- [Favicon](https://favicon.io/) was used to create the website icon.
 
 
 ## Deployment:
