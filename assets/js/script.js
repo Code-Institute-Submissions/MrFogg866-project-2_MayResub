@@ -31,7 +31,11 @@ function updateMoves(pInput, cInput) {
 function compareInputs(pInput, cInput) {
   const currentMatch = `${pInput} vs ${cInput}`;
   if (pInput === cInput) {
-    displayMessage(`${currentMatch} is a Tie`);
+    document.getElementById(
+      "modal-result"
+    ).innerHTML = `${currentMatch} = is a Tie`;
+    document.getElementById("modal-img").src = "assets/images/img.jpeg";
+    document.getElementById("myModal").style.display = "block";
     return;
   }
 
@@ -120,6 +124,7 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
   document.getElementById("modal-img").src = "";
 }
+
 
 
   
