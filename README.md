@@ -13,7 +13,6 @@ This game is created to have fun playing against the computer. The game is entir
 ## Table Of Contents
 
 
-- [Introduction:](#introduction)
 - [Features:](#features)
 - [User-Goals:](#user-goals)
     + [First Time Visitor Goals:](#first-time-visitor-goals)
@@ -60,22 +59,20 @@ This game is created to have fun playing against the computer. The game is entir
 
 ## Testing 
 
-- Each pages responsiveness is tested visually and by using chrome development tools & lighthouse the 3 pages results are shown below,
-
 
 I have tested my site on multiple devices. These include:
 
-iPhone SE (375 x 667)
-iPhone XR plus (414 x 896)
-ipad mini (768 x 1024)
-iPad air (820 x 1180)
-nest hub max (1280 x 800)
+- iPhone SE (375 x 667)
+- iPhone XR plus (414 x 896)
+- ipad mini (768 x 1024)
+- iPad air (820 x 1180)
+- nest hub max (1280 x 800)
 
-the aim is to allow the website to resize itself at various sizes starting at 1200px and moving down to 950px then 670px and then 480px to allow for a great user experience.
+The aim is to allow the website to resize itself at various sizes starting at 1200px and moving down to 950px then 670px and then 480px to allow for a great user experience.
 
 
 
-#### Validator Testing:
+
 
 1. HTML
 - Numerous errors were returned when passing through the official W3C validator
@@ -85,17 +82,14 @@ the aim is to allow the website to resize itself at various sizes starting at 12
 
 2. CSS
 - No errors were found when passing through the official (Jigsaw) validator
-[jigsaw](assets/images/css-w3-jigsaw.png)
+![jigsaw](assets/images/css-w3-jigsaw.png)
+
 3. Javascript
 - No warnings from wwww.jshint.com
 ![jshint](assets/images/jshint.png)
 
-#### Code Formatting
-
 4. Javascript Beautifier used here, you can see the amount of lines being used have been reduced.
 ![jshint](assets/images/beautifier-js.png)
-
-#### Chrome Developer Tools
 
 5. I have used dev tools here to check the media quiries are working correctly and to see any errors, the was a few errors i have show one below regarding the lack of Favicon, to which i added a favicon.
 ![favicon](assets/images/favicon-error.png)
@@ -141,7 +135,7 @@ The live link can be found here - https://mrfogg866.github.io/project-2/
 
 
 
-### Code & Credit
+## Code & Credit
 
 #### Code
 
@@ -152,6 +146,6 @@ The live link can be found here - https://mrfogg866.github.io/project-2/
 
 - Thanks to my mentor Marcel Mulders for his constructive feedback.
 
-### Content
+####  Content
 
 - The images used for the game were taken from google images and edited using the picsart app.
